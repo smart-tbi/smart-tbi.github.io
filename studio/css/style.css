@@ -290,6 +290,12 @@ header a.logo img {
     border-radius: 20px;
 }
 
+.nav-box-round .navbar-nav .nav-link{
+    border-radius: 20px;
+}
+
+.nav-box-round .nvabar-nav .nav
+
 .header-appear .nav-box-round .navbar-nav .nav-link.active{
     background-color: #a07bf7;
     color: #ffffff !important;
@@ -777,15 +783,15 @@ svg.slider-shape{
 .team-detail {
     position: relative;
     width: 100%;
-    max-width: 250px;
-    margin: 0 auto;
-    top: -78px;
+    /* max-width: 360px; */
+    margin-top: 10px;
+    /* margin: 0 auto; */
     margin-bottom: -78px;
     background: #fff;
-    padding-top: 20px;
     overflow: hidden;
     text-align: center;
 }
+
 
 .team-detail .social-icon {
     margin: 0;
@@ -815,6 +821,17 @@ svg.slider-shape{
     border-color:#fff;
 }
 
+
+.team-image {
+    width: 200px;
+    height: 200px;
+}
+
+.team-image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 
 /* ===================================
     Cube Portfolio
@@ -2002,6 +2019,8 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
     .team-item{
         margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
     }
 
     .about-list li{
