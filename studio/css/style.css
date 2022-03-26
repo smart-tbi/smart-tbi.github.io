@@ -1317,10 +1317,14 @@ svg.slider-shape{
     position:relative;
     text-align:center;
     margin-top: 90px;
-    padding:125px 0px 125px;
+    padding:60px 0px 60px;
     background:url("../img/blog-cover.jpg");
     background-size: cover;
     background-position: top center;
+}
+
+.page-title .auto-container{
+    position:relative;
 }
 
 .page-title .auto-container{
@@ -1410,12 +1414,12 @@ svg.slider-shape{
     margin-bottom: 2.5rem;
 }
 
-.post-details .post-categories{
+.post-categories{
     display: block;
     margin-bottom: 1rem;
 }
 
-.post-details .post-categories a{
+.post-categories a{
     position: relative;
     color: #a07bf7;
     padding: 4px 15px;
