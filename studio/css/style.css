@@ -993,6 +993,7 @@ svg.slider-shape{
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    height: 100%;
 }
 
 .news-item img{
@@ -1011,6 +1012,7 @@ svg.slider-shape{
 .news-item .news-text-box{
     padding: 30px;
     background-color: #fff;
+    height: 100%;
 }
 
 .news-item .date{
