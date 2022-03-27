@@ -44,7 +44,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap'); /* Logo */
 
 .main-font{font-family: 'Roboto', sans-serif;}
 .alt-font{font-family: 'Poppins', sans-serif;}
@@ -237,6 +237,12 @@ section{padding: 5rem 0;}
 header a.logo img {
     max-width: 170px;
     vertical-align: sub;
+}
+
+a.logo {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
 }
 
 .navbar-top-default{
