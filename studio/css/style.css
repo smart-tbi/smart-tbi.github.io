@@ -134,6 +134,15 @@ section{padding: 5rem 0;}
 }
 
 
+.calendar-icon {
+    color: #a07bf7;
+    margin-right: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
 /* Popover */
 
   .popover__wrapper {
