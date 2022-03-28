@@ -114,6 +114,7 @@ section{padding: 5rem 0;}
 .btn.btn-purple {background: #a07bf7; border-color: #a07bf7; color: #ffffff}
 .btn.btn-purple:hover, .btn.btn-purple:focus {background: transparent !important; border-color: #a07bf7; color: #a07bf7 !important}
 .btn.btn-hvr-white:hover, .btn.btn-hvr-white:focus {background: #ffffff !important; border-color: #ffffff; color: #585858 !important}
+.btn.btn-disabled {opacity: 0.3; filter: grayscale(70%); pointer-events: none;}
 
 /* background color */
 .bg-main{background: #a07bf7;}
@@ -131,6 +132,32 @@ section{padding: 5rem 0;}
     max-width: 570px;
     display: inline-block;
 }
+
+
+/* Popover */
+
+  .popover__wrapper {
+    position: relative;
+  }
+  .popover__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translate(0, 10px);
+    background-color: #ffffff;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: 100%;
+  }
+  .popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+  }
+  .popover__message {
+    text-align: center;
+  }
+  
 
 /* ===================================
    Social Icon Bg
