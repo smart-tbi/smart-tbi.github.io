@@ -97,7 +97,7 @@ section{padding: 5rem 0;}
 /* button size */
 .btn.btn-small {font-size:12px; padding: 4px 1.8em;}
 .btn.btn-medium {font-size:12px; padding: 6px 1.8em;}
-.btn.btn-large {font-size:14px; padding: 9px 34px; line-height: 1.8em;}
+.btn.btn-large {font-size:14px; padding: 9px 34px; line-height: 1.8em; height: 100%; vertical-align: middle;}
 .btn.btn-rounded {border-radius: 50px;}
 
 /* button background */
@@ -823,12 +823,17 @@ svg.slider-shape{
 ====================================== */
 
 .team-detail {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
+    padding: 1rem;
     /* max-width: 360px; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* margin: 0 auto; */
-    margin-bottom: -78px;
+    /* margin-bottom: -78px; */
     background: #fff;
     overflow: hidden;
     text-align: center;
@@ -866,10 +871,16 @@ svg.slider-shape{
 
 .team-image {
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 
 .team-image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.flex-center {
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -1397,7 +1408,7 @@ svg.slider-shape{
     text-align:center;
     margin-top: 90px;
     padding:60px 0px 60px;
-    background:url("../img/blog-cover.jpg");
+    /* background:url("../img/blog-cover.jpg"); */
     background-size: cover;
     background-position: top center;
 }
@@ -1475,8 +1486,8 @@ svg.slider-shape{
 }
 
 .blog-classic{
-    padding: 4rem 0;
-    border-bottom: 1px solid #efefef;
+    /* padding: 4rem 0;
+    border-bottom: 1px solid #efefef; */
     text-align: left;
 }
 
@@ -2228,18 +2239,19 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .carousel-inner>.carousel-item {
   position: relative;
   display: none;
   animation: 0.6s ease-in-out;
-  height: 50vh; /* Set your height */
+  /* height: 50vh; Set your height */
 }
 
 .carousel-item>.carousel-img {
   width: 100%;
-  min-height: 50vh; /* same height */
+  /* min-height: 50vh; */
   height: auto;
 }
 .carousel-item.carousel-video {
@@ -2300,8 +2312,8 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 20vh;
-  bottom: 20vh;
+  top: 45%;
+  bottom: auto;
   z-index: 1;
   display: -ms-flexbox;
   display: flex;
