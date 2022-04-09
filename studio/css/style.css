@@ -689,7 +689,7 @@ a.logo {
     align-items: center;
     min-height: 100vh;
     padding: 0;
-    background: url("../img/slider-bg.jpg");
+    /* background: url("../img/slider-bg.jpg"); */
     padding-top: 40px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -834,7 +834,6 @@ svg.slider-shape{
     /* margin-top: 10px; */
     /* margin: 0 auto; */
     /* margin-bottom: -78px; */
-    background: #fff;
     overflow: hidden;
     text-align: center;
 }
