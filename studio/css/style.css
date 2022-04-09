@@ -315,7 +315,7 @@ a.logo {
 }
 
 .navbar-top-default #smart-tbi {
-    margin-right: -30px;
+    margin-right: 10px;
 }
 
 /*Navbar Simple*/
@@ -2115,6 +2115,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
         margin-top: 4rem;
         display: flex;
         flex-direction: row;
+        height: 100%;
     }
 
     .about-list li{
